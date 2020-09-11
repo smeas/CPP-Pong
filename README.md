@@ -6,3 +6,6 @@ A simple pong clone written in C++.
 - SDL2_image
 - SDL2_mixer
 - SDL2_ttf
+
+## Screenshots
+![CPPong](screenshot.png)
