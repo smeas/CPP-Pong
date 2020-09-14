@@ -76,9 +76,9 @@ void Game::InitializeSDL()
 
 void Game::LoadResources()
 {
-	mPaddleTextures[0] = LoadTexture(mRenderer, "Resources/paddleBlu.png");
-	mPaddleTextures[1] = LoadTexture(mRenderer, "Resources/paddleRed.png");
-	mBallTexture = LoadTexture(mRenderer, "Resources/ballGrey.png");
+	mPaddleTextures[0] = LoadTexture(mRenderer, "Resources/paddle1.png");
+	mPaddleTextures[1] = LoadTexture(mRenderer, "Resources/paddle2.png");
+	mBallTexture = LoadTexture(mRenderer, "Resources/ball.png");
 	mBitFont = LoadFont("Resources/bit5x3.ttf", 72);
 	mSounds[0] = LoadAudio("Resources/pongblip1.wav");
 	mSounds[1] = LoadAudio("Resources/pongblip2.wav");
