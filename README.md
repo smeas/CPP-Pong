@@ -12,4 +12,4 @@ Player 2: up, down
 - SDL2_ttf
 
 ## Screenshots
-![CPPong](screenshot.png)
+![CPPong](demo.gif)

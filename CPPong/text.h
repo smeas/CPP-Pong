@@ -76,7 +76,8 @@ inline Text CreateText(
 		return {};
 	}
 
-	SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, surface); // BUG: Memory leak here WTF?!
+	// BUG: This seems to cause a tiny memory leak in even though I'm freeing it properly. Bug in SDL?
+	SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, surface);
 	if (texture == nullptr)
 	{
 		SDL_Log("SDL_CreateTextureFromSurface failed: %s", TTF_GetError());
