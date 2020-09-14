@@ -1,4 +1,4 @@
-# CPPong
+# C++ Pong
 A simple pong clone written in C++.
 
 ### Controls
