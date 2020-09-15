@@ -36,7 +36,7 @@ void Game::InitializeSDL()
 
 	// Create the window.
 	mWindow = SDL_CreateWindow(
-		"CPPong",
+		"C++ Pong",
 		SDL_WINDOWPOS_UNDEFINED,
 		SDL_WINDOWPOS_UNDEFINED,
 		mWidth, mHeight, 0);
